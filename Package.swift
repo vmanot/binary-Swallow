@@ -3,7 +3,7 @@
 import CompilerPluginSupport
 import PackageDescription
 
-let repo = "https://github.com/vmanot/binary-Swallow/raw/1.0.9001/"
+let repo = "https://github.com/vmanot/binary-Swallow/raw/1.0.9002/"
 let modules = ["Swallow"]
 
 let package = Package(
@@ -53,7 +53,7 @@ let package = Package(
     .binaryTarget(
         name: "Swallow",
         url: repo + "Swallow.xcframework.zip",
-        checksum: "731817aea755a479f21f62f89c36d6b01441f42c981b0adb5ff323aa1c8c1aa3"
+        checksum: "d93878b1e2ea703a17e01f11be67507b260b1107e7f2a87f185258c8aba33608"
     ),
   ]
 )
